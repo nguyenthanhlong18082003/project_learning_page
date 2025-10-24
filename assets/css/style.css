@@ -309,30 +309,32 @@ header .btn-signup {
     line-height: 1.67;
 }
 
+/* popular right*/
 .popular-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/* popular right*/
-.popular .controls {
+.popular-top .controls {
     display: flex;
+    gap: 1.8rem;
 }
 
-.controls .control-btn {
+.popular-top .control-btn {
     background: transparent;
     width: 4rem;
     height: 4rem;
+    color: var(--primary-color);
     border-radius: 50%;
     border: var(--primary-color) 0.1rem solid;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.controls .control-btn-right {
-    margin-left: 1rem;
+.popular-top .control-btn:hover {
     background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
 }
