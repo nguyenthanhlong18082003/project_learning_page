@@ -37,6 +37,20 @@ a {
   margin-left: auto;
 }
 
+.line-clamp{
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp,1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2{
+  --line-clamp: 2;
+}
+
+.break-all{
+  word-break: break-all;
+}
 /* ===================header========================== */
 .header .body-header {
   display: flex;
@@ -133,7 +147,7 @@ header .btn-signup {
   display: flex;
 }
 
-/* ============hero left=========== */
+/* ============hero left=========== ============================*/
 .hero .media-block {
   width: 48%;
   position: relative;
@@ -206,7 +220,7 @@ header .btn-signup {
   line-height: 1.67;
 }
 
-/* ============hero right=========== */
+/* ============hero right============================================== */
 .hero .content-block {
   width: 52%;
   padding-left: 13rem;
@@ -346,6 +360,7 @@ header .btn-signup {
 }
 
 .popular .course-item {
+  flex: 1;
   border-radius: 1.2rem;
   border: 0.1rem solid #ebeaff;
   background: #fff;
@@ -379,7 +394,7 @@ header .btn-signup {
   align-items: center;
 }
 
-.popular .course-item .title a{
+.popular .course-item .title a {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
@@ -398,6 +413,11 @@ header .btn-signup {
   color: #5f5b53;
   font-size: 1.4rem;
   line-height: 1.86;
+  /* overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  text-overflow: ellipsis; */
 }
 
 .popular .course-item .foot {
