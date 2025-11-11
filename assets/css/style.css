@@ -31,6 +31,25 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+/* button dùng chung cho trang home */
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 50px;
+  background-color: #171100;
+  padding: 0 16px;
+  border-radius: 999px;
+  line-height: 5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
 
 .heading-lv2 {
   color: #171100;
@@ -64,7 +83,7 @@ a {
 .header .body-header {
   display: flex;
   align-items: center;
-  padding: 50px 0 8px;
+  padding: 36px 0 8px;
 }
 
 header {
@@ -72,11 +91,11 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* tác dộng 1 lượt vào 2 class */
 .header.fixed {
   z-index: 1;
   position: sticky;
-  top: -48px;
+  top: -28px;
 }
 
 .nav ul {
@@ -126,11 +145,7 @@ header {
   background-color: #171100;
   padding: 0 16px;
   border-radius: 999px;
-}
-
-.btn:hover {
-  cursor: pointer;
-  opacity: 0.9;
+  line-height: 5rem;
 }
 
 header .btn-signup {
