@@ -24,6 +24,13 @@ a {
   text-decoration: none;
 }
 
+.main-content {
+  width: 1170px;
+  /* max-width: calc(100% - 48px); */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .heading-lv2 {
   color: #171100;
   font-family: var(--font-heading);
@@ -70,13 +77,6 @@ header {
 
 .nav ul {
   display: flex;
-}
-
-.main-content {
-  width: 1170px;
-  max-width: calc(100% - 48px);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .logo {
@@ -492,11 +492,11 @@ header .btn-signup {
   margin-left: auto;
 }
 
-.feedback-item blockquote{
-font-style: Italic;
-font-size: 26px;
-line-height: 1.54;
-color: #FFFFFF;
+.feedback-item blockquote {
+  font-style: Italic;
+  font-size: 26px;
+  line-height: 1.54;
+  color: #ffffff;
 }
 
 .feedback-item .dot.active {
