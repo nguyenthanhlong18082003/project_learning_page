@@ -26,7 +26,7 @@ a {
 
 .main-content {
   width: 1170px;
-  /* max-width: calc(100% - 40px); */
+  /* max-width: calc(100% - 48px); */
   margin-left: auto;
   margin-right: auto;
 }
@@ -509,8 +509,6 @@ header .btn-signup {
 .feedback-item .content {
   width: 66%;
   margin-left: auto;
-  position: relative;
-  bottom: 85px;
 }
 
 .feedback-item blockquote {
@@ -518,8 +516,8 @@ header .btn-signup {
   font-size: 26px;
   line-height: 1.54;
   color: #ffffff;
-  position: absolute;
-  left: 30px;
+  position: relative;
+  left: 30px
 }
 
 .feedback-item .dot.active {
