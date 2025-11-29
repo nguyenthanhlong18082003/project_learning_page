@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;   
 }
 
 /* Khôi phục cỡ chữ mặc định */
@@ -251,7 +251,7 @@ header .btn-signup {
   font-weight: 700;
   font-size: 5.8rem;
   line-height: 1.17;
-  letter-spacing: -1, 16px;
+  letter-spacing: -1.16px;
 }
 
 .hero .desc {
@@ -304,7 +304,7 @@ header .btn-signup {
 }
 
 .hero .desc-recent {
-  margin-top: 1rem;
+  margin-top: 4.8rem;
 }
 
 .hero .stats strong {
@@ -321,7 +321,7 @@ header .btn-signup {
 }
 
 .hero .stats {
-  margin-top: -0.1rem;
+  margin-top: 0.8rem;
 }
 
 /* popular right */
