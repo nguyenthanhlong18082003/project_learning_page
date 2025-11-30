@@ -461,13 +461,20 @@ header .btn-signup {
 
 /* =====================================feedback===================================== */
 .feedback {
+  margin-top: 13.5rem;
+  padding: 9.6rem 0;;
   background-color: #2e2100;
 }
 
-.feedback-item {
+.feedback-list{
   display: flex;
-  align-items: center;
-  height: 380px;
+  overflow: hidden;
+}
+
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .feedback-item .avatar {
@@ -488,8 +495,8 @@ header .btn-signup {
 
 .feedback-item .info .desc {
   margin-top: 0.4rem;
-  font-style: Regular;
-  font-size: 14px;
+  /* font-style: Regular; */
+  font-size: 1.4rem;
   line-height: 1.86;
   color: #bfbcb2;
 }
@@ -515,7 +522,7 @@ header .btn-signup {
 
 .feedback-item blockquote {
   font-style: Italic;
-  font-size: 26px;
+  font-size: 2.6rem;
   line-height: 1.54;
   color: #ffffff;
   position: relative;
@@ -525,5 +532,6 @@ header .btn-signup {
 .feedback-item .dot.active {
   background-color: var(--primary-color);
   cursor: default;
-
 }
+
+
