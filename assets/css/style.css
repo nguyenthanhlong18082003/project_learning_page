@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 62.5%;   
+  font-size: 62.5%;
 }
 
 /* Khôi phục cỡ chữ mặc định */
@@ -30,6 +30,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* button dùng chung cho trang home */
 .btn {
   display: inline-block;
@@ -90,6 +91,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* tác dộng 1 lượt vào 2 class */
 .header.fixed {
   z-index: 1;
@@ -462,11 +464,12 @@ header .btn-signup {
 /* =====================================feedback===================================== */
 .feedback {
   margin-top: 13.5rem;
-  padding: 9.6rem 0;;
+  padding: 9.6rem 0;
+  ;
   background-color: #2e2100;
 }
 
-.feedback-list{
+.feedback-list {
   display: flex;
   overflow: hidden;
 }
@@ -534,4 +537,52 @@ header .btn-signup {
   cursor: default;
 }
 
+/*===================features====================*/
+.features {
+  margin-top: 13.5rem;
+  padding: 6.5rem 0;
+}
 
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .images {
+  display: flex;
+  gap: 3rem;
+}
+
+.features .images img {
+  width: 27rem;
+  height: 40.4rem;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.features .lower {
+  display: flex;
+  margin-top: 3.4rem;
+}
+
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features .desc {
+  color: #5F5B53;
+  margin-top: 1.6rem;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.features .cta-btn {
+  margin-top: 3.2rem;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
+}
