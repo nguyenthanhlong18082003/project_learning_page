@@ -171,9 +171,11 @@ header .btn-signup {
   position: relative;
 }
 
-.hero .content-block {
+/* .hero .content-block {
   width: 52%;
-}
+  padding-left: 130px;
+  padding-top: 63px;
+} */
 
 .hero .media-block .img {
   width: 470px;
@@ -242,7 +244,7 @@ header .btn-signup {
 .hero .content-block {
   width: 52%;
   padding-left: 13rem;
-  padding-top: 6.4rem;
+  padding-top: 6.3rem;
 }
 
 .hero .heading {
@@ -251,7 +253,7 @@ header .btn-signup {
   font-weight: 700;
   font-size: 5.8rem;
   line-height: 1.17;
-  letter-spacing: -1, 16px;
+  letter-spacing: -1.16px;
 }
 
 .hero .desc {
