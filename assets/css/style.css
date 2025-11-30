@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;   
 }
 
 /* Khôi phục cỡ chữ mặc định */
@@ -306,7 +306,7 @@ header .btn-signup {
 }
 
 .hero .desc-recent {
-  margin-top: 1rem;
+  margin-top: 4.8rem;
 }
 
 .hero .stats strong {
@@ -323,7 +323,7 @@ header .btn-signup {
 }
 
 .hero .stats {
-  margin-top: -0.1rem;
+  margin-top: 0.8rem;
 }
 
 /* popular right */
@@ -525,5 +525,5 @@ header .btn-signup {
 .feedback-item .dot.active {
   background-color: var(--primary-color);
   cursor: default;
-}
 
+}
