@@ -13,7 +13,7 @@ html {
 
 /* Khôi phục cỡ chữ mặc định */
 body {
-  font-size: 1.6rem;
+  font-size: 1.6rem; 
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -328,13 +328,20 @@ header .btn-signup {
   margin-top: 0.8rem;
 }
 
-/* popular right */
+/* popular*/
 .popular {
   padding: 6.5rem 0;
   background-color: #fff;
-  margin-top: 135px;
+  margin-top: 200px;
 }
 
+.popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* popular left*/
 .popular-top .desc {
   margin-top: 1.6rem;
   width: 45.8rem;
@@ -344,12 +351,6 @@ header .btn-signup {
 }
 
 /* popular right*/
-.popular-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .popular-top .controls {
   display: flex;
   gap: 1.8rem;
