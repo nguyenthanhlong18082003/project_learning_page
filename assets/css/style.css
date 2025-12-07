@@ -13,7 +13,7 @@ html {
 
 /* Khôi phục cỡ chữ mặc định */
 body {
-  font-size: 1.6rem; 
+  font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -64,13 +64,20 @@ a {
   margin-left: auto;
 }
 
+/* Trường hợp khi nội dung quá dài 
+- Nên phải ẩn nội dung thừa đi
+ */
 .line-clamp {
+  overflow: hidden;
   display: -webkit-box;
+  /* Nếu viết -webkit-line-clamp: 2; thì sẽ giới hạn lại nội dung còn lại 2 dòng mà không cần biến
+  Nếu viết như bên dưới là dùng biến var biến dùng chung để giới hạn lại 2 dòng --> đặt điểm có thể tais sử dụng lại nhiều lần
+  */
   -webkit-line-clamp: var(--line-clamp, 1);
   -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
+/* tạo biến dùng chung --> khi nội dung quá dài sẽ giới hạn lại 2 dòng */
 .line-clamp.line-2 {
   --line-clamp: 2;
 }
@@ -538,7 +545,7 @@ header .btn-signup {
   cursor: default;
 }
 
-/*===================features====================*/
+/*===================features-1====================*/
 .features {
   margin-top: 13.5rem;
   padding: 6.5rem 0;
@@ -586,4 +593,24 @@ header .btn-signup {
   width: 137px;
   height: 50px;
   background: var(--primary-color);
+}
+
+/*===================features-2====================*/
+.features-2nd {
+  margin-top: 70px;
+}
+
+.features-2nd .body {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+  width: 49%;
+}
+
+.features-2nd .images img {
+  width: 47rem;
+  height: 44rem;
+  border-radius: 20px;
 }
