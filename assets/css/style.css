@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+ 
 :root {
   --font-heading: "Sen", sans-serif;
   --primary-color: #ffb900;
@@ -339,7 +339,7 @@ header .btn-signup {
 .popular {
   padding: 6.5rem 0;
   background-color: #fff;
-  margin-top: 200px;
+  margin-top: 13.5rem;
 }
 
 .popular-top {
@@ -473,7 +473,6 @@ header .btn-signup {
 .feedback {
   margin-top: 13.5rem;
   padding: 9.6rem 0;
-  ;
   background-color: #2e2100;
 }
 
@@ -542,7 +541,7 @@ header .btn-signup {
 
 .feedback-item .dot.active {
   background-color: var(--primary-color);
-  cursor: default;
+  cursor: default;/*con trỏ chuột kiểu mũi tên như bình thường*/
 }
 
 /*===================features-1====================*/
