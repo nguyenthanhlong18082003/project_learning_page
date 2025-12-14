@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
- 
+
 :root {
   --font-heading: "Sen", sans-serif;
   --primary-color: #ffb900;
@@ -541,7 +541,8 @@ header .btn-signup {
 
 .feedback-item .dot.active {
   background-color: var(--primary-color);
-  cursor: default;/*con trỏ chuột kiểu mũi tên như bình thường*/
+  cursor: default;
+  /*con trỏ chuột kiểu mũi tên như bình thường*/
 }
 
 /*===================features-1====================*/
@@ -612,4 +613,43 @@ header .btn-signup {
   width: 47rem;
   height: 44rem;
   border-radius: 20px;
+}
+
+/* =========================blogs====================== */
+.blogs {
+  background: #FFFCF4;
+  margin-top: 13.5rem;
+  padding: 9.6rem 0;
+}
+
+.blogs .blog-top {
+  text-align: center;
+}
+
+.blogs .blog-top .desc {
+  margin: 16px auto 0;
+  color: #696262;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  width: 44.8rem;
+  height: 5.6rem;
+}
+
+.blogs .blog-list {
+  display: flex;
+  margin-top: 55px;
+  gap: 3rem;
+}
+
+.blogs .item {
+  width: 33.33%;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+
+.blogs .item .thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
 }
