@@ -653,3 +653,22 @@ header .btn-signup {
   object-fit: cover;
   border-radius: 16px 16px 0px 0px;
 }
+
+.blogs .blog-list .info-blog {
+  padding: 2rem;
+}
+
+.blogs .item .date {
+  color: #5F5B53;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.blogs .info-blog span::before{
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: var(--primary-color);
+  display: block;
+  
+}
