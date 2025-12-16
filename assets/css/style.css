@@ -641,6 +641,15 @@ header .btn-signup {
   gap: 3rem;
 }
 
+.blogs .blog-list .item {
+  border: 0.1rem solid #ebeaff;
+}
+
+.blogs .blog-list .item:hover {
+  border: 0.1rem solid transparent;
+  box-shadow: 0rem 1.8rem 3.6rem 0rem rgba(0, 0, 0, 0.05);
+}
+
 .blogs .item {
   width: 33.33%;
   border-radius: 16px;
@@ -654,21 +663,58 @@ header .btn-signup {
   border-radius: 16px 16px 0px 0px;
 }
 
-.blogs .blog-list .info-blog {
-  padding: 2rem;
+.blogs .item .info-blog {
+  padding: 2rem 2rem 2.8rem;
 }
 
 .blogs .item .date {
+  position: relative;
+  padding-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
   color: #5F5B53;
   font-size: 14px;
   line-height: 26px;
 }
 
-.blogs .info-blog span::before{
+.blogs .item .date::before {
   content: "";
   width: 6px;
   height: 6px;
   background: var(--primary-color);
-  display: block;
-  
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+}
+
+.blogs .item .date::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: -2.7rem;
+  content: "";
+  height: 0.1rem;
+  background: #E2DFDA;
+  display: inline-block;
+  margin-top: 1.2rem;
+  border-radius: 0.5px;
+}
+
+.blogs .info-blog .title {
+  color: #171100;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.blogs .info-blog .btn-blog {
+  margin-top: 1.2rem;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 14px;
+}
+
+.blogs .info-blog .btn-blog:hover {
+  background-color: var(--primary-color);
 }
