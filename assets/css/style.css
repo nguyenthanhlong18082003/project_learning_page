@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+ 
 :root {
   --font-heading: "Sen", sans-serif;
   --primary-color: #ffb900;
@@ -142,7 +142,7 @@ header {
   left: 22px;
 }
 
-.btn {
+/* .btn {
   display: inline-block;
   min-width: 118px;
   color: #fff;
@@ -154,7 +154,7 @@ header {
   padding: 0 16px;
   border-radius: 999px;
   line-height: 5rem;
-}
+} */
 
 header .btn-signup {
   min-width: 144px;
@@ -634,11 +634,12 @@ header .btn-signup {
   width: 44.8rem;
   height: 5.6rem;
 }
-
+/* ==============blog-list========== */
 .blogs .blog-list {
   display: flex;
   margin-top: 55px;
   gap: 3rem;
+  overflow: hidden;
 }
 
 .blogs .blog-list .item {
@@ -648,12 +649,14 @@ header .btn-signup {
 .blogs .blog-list .item:hover {
   border: 0.1rem solid transparent;
   box-shadow: 0rem 1.8rem 3.6rem 0rem rgba(0, 0, 0, 0.05);
+  border-radius: 1.9rem;
 }
 
 .blogs .item {
-  width: 33.33%;
+  width: calc(33.33% - 20px);
   border-radius: 16px;
   background-color: #FFFFFF;
+  flex-shrink: 0;
 }
 
 .blogs .item .thumb {
@@ -716,5 +719,24 @@ header .btn-signup {
 }
 
 .blogs .info-blog .btn-blog:hover {
+  background-color: var(--primary-color);
+}
+
+/*========== dots========== */
+.blogs .dots{
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 3.8rem;
+}
+
+.blogs .dots .dot{
+  background-color: #5F5B53;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+
+.blogs .dots .active{
   background-color: var(--primary-color);
 }
