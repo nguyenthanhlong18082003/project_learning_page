@@ -740,3 +740,18 @@ header .btn-signup {
 .blogs .dots .active{
   background-color: var(--primary-color);
 }
+
+/* ===================footer=============== */
+.footer{
+  background: #2E2100;
+  padding: 9.6rem 13.5rem 0;
+}
+
+.footer .row{
+  display: flex;
+}
+
+.footer .row .column1{
+  width: 267px;
+  /* height: 163; */
+}
