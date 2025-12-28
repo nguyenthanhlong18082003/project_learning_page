@@ -619,7 +619,7 @@ header .btn-signup {
 .blogs {
   background: #FFFCF4;
   margin-top: 13.5rem;
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 14rem;
 }
 
 .blogs .blog-top {
@@ -744,14 +744,80 @@ header .btn-signup {
 /* ===================footer=============== */
 .footer{
   background: #2E2100;
-  padding: 9.6rem 13.5rem 0;
+  padding: 96px 135px 0;
 }
 
 .footer .row{
   display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554B;
 }
 
-.footer .row .column1{
-  width: 267px;
-  /* height: 163; */
+.footer .row .column{
+  width: 21.6%;
 }
+
+.footer .row .column:first-child{
+  width: 35%;
+}
+
+.footer .desc{
+  color: #BFBCB2;
+  max-width: 267px;
+  padding-top: 1.8rem;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.footer .socials{
+  padding-top: 1.8rem;
+  display: flex;
+  gap: 1.8rem;
+}
+
+.footer .title{
+  display: inline-block;
+  padding-right: 48px;
+  border-bottom: 1px solid #59554B;
+  padding-bottom: 14px;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.footer .list{
+  padding-top: 28px;
+}
+
+.footer .list a{
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #BFBCB2;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.footer .list li:last-child a{
+  margin-bottom: 0px;
+}
+
+.footer .list:last-child{
+  max-width: 23.1rem;
+}
+
+.footer .list strong:last-child{
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.footer .copyright .desc-copyright{
+  padding: 28px 0 28px;
+  display: flex;
+  justify-content: center;
+  color: #807D74;
+  font-size: 14px;
+  line-height: 26px;
+}
+
